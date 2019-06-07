@@ -1,6 +1,6 @@
 [//]: # (Image References)
 
-[image1]: https://github.com/arjunlikesgeometry/DRLND-Project-1/blob/master/P1.png
+[image1]: https://github.com/arjunlikesgeometry/DRLND-Project-2/blob/master/P2.png
 [image2]: https://github.com/arjunlikesgeometry/DRLND-Project-2/blob/master/DDPG.png
 
 ### Introduction
