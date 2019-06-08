@@ -8,7 +8,7 @@ In this project the DDPG algorithm was used to solve the second version of the r
 
 ### Algorithm and Network Architecture
 ![DDPG][image2]
-The algorithm above was taken from this <cite><a href="hhttps://arxiv.org/pdf/1509.02971.pdf"><i>paper</i></a></cite>. This is an actor-critic method, meaning the actor updates the policy whilst the critic estimates the value function. One of the key features of this algorithm is the blending of the weights of the actor and critic neural networks into their respective target networks. Another feature is the use of a replay buffer as seen in the DQN algorithm in the first project.
+The algorithm above was taken from this <cite><a href="https://arxiv.org/abs/1509.02971"><i>paper</i></a></cite>. This is an actor-critic method, meaning the actor updates the policy whilst the critic estimates the value function. One of the key features of this algorithm is the blending of the weights of the actor and critic neural networks into their respective target networks. Another feature is the use of a replay buffer as seen in the DQN algorithm in the first project.
 
 Overall, this code was modified from the ddpg-pendulum code provided by Udacity.
 
