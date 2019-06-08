@@ -4,11 +4,11 @@
 [image2]: https://github.com/arjunlikesgeometry/DRLND-Project-2/blob/master/DDPG.png
 
 ### Introduction
-In this project the DDPG algorithm was used to solve the second version of the reacher environemnt outlined in the readme. Previously the DQN algorithm was used to solve the environment in Project 1,however this was a discrete action space. DDPG allows us to generate an action value function for a continuous action space.
+In this project the DDPG algorithm was used to solve the second version of the reacher environemnt outlined in the readme. Previously the DQN algorithm was used to solve the environment in Project 1, however this was a discrete action space. DDPG allows us to generate an action value function for a continuous action space.
 
 ### Algorithm and Network Architecture
 ![DDPG][image2]
-The algorithm above was taken from this <cite><a href="hhttps://arxiv.org/pdf/1509.02971.pdf"><i>paper</i></a></cite>. This is and actor-critic method, meaning the actor updates the policy whilst the critic estimates the value function. One of the key features of this algorithm is the blending of the weights of the actor and critic neural networks into their respective target networks. Another feature is the use of a replay buffer as seen in the DQN algorithm in the first project.
+The algorithm above was taken from this <cite><a href="hhttps://arxiv.org/pdf/1509.02971.pdf"><i>paper</i></a></cite>. This is an actor-critic method, meaning the actor updates the policy whilst the critic estimates the value function. One of the key features of this algorithm is the blending of the weights of the actor and critic neural networks into their respective target networks. Another feature is the use of a replay buffer as seen in the DQN algorithm in the first project.
 
 Overall, this code was modified from the ddpg-pendulum code provided by Udacity.
 
