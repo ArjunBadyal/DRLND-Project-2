@@ -134,4 +134,4 @@ Environment solved in 169 episodes!	Average Score: 30.27
 ![Trained Agent][image1]
 
 ### Conclusion and Future Work
-To conclude, with the right hyperparameters it appears that DDPG works well for continuous tasks of this nature. Future work could include further experimentation with the hyperparameters such as the effects of minibatch size highlighted above. Other algorithms could also be tested such as PPO, A3C and D4PG.
+To conclude, with the right hyperparameters it appears that DDPG works well for continuous tasks of this nature. Future work could include further experimentation with the hyperparameters such as the effects of minibatch size highlighted above. Other algorithms could also be tested such as PPO, A3C and D4PG. Long term stability and convergence of the algorithm could also be tested, since the training stopped as soon as it reached the target threshold in this case. 
