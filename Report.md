@@ -93,7 +93,7 @@ LR_ACTOR = 1e-4  # learning rate of the actor
 LR_CRITIC = 1e-4  # learning rate of the critic
 WEIGHT_DECAY = 0.0001 # L2 weight decay
 ```
-Initially it was taking too long for the agents to train so I changed the learning rate of the critic from 1e-3 to 1e-4. This seemed to make a difference, proabably because the actor depends on the critic.  
+Initially it was taking too long for the agents to train so I changed the learning rate of the critic from 1e-3 to 1e-4. This seemed to make a difference, proabably because the actor depends on the critic. Reducing the minibatch size to 64 may have also made a difference, however this would require more work looking into how the combination of problem dimensionality and minibatch size affect overall performance of the algorithm.  
 
 The last thing to note is that noise was added using the Ornstein–Uhlenbeck process in order to aid exploration of the agents in the environment:
 ```python
@@ -134,3 +134,4 @@ Environment solved in 169 episodes!	Average Score: 30.27
 ![Trained Agent][image1]
 
 ### Conclusion and Future Work
+To conclude, with the right hyperparameters it appears that DDPG works well for continuous tasks of this nature. Future work could include further experimentation with the hyperparameters such as the effects of minibatch size highlighted above. Other algorithms could also be tested such as PPO, A3C and D4PG.
