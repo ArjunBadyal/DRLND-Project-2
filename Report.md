@@ -123,6 +123,8 @@ return self.state
 
 ### Results
 
+The results show that the environment was solved in 169 espisodes i.e. this was the point after which the average score was greater than or equal than 30 for the next 100 episodes. The weights used to solve the environment have been saved in the checkpoint_actor.pth and checkpoint_critic.pth files and may be loaded to see the performance of the trained model.
+
 Episode 100	Average Score: 1.07
 
 Episode 200	Average Score: 7.62
